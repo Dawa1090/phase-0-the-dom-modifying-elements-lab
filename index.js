@@ -1,6 +1,9 @@
-document.getElementById('main').remove();
+const main = document.querySelector("main")
+main.remove()
 
- const newHeader = document.createElement('h1')
- newHeader.id = 'victory'
- newHeader.innerHTML = "YOUR-NAME is the champion"
+let newHeader = document.createElement("h1");
+newHeader.setAttribute ("id" , "victory")
 
+newHeader.innerHTML = "Dawa is the champion"; 
+
+document.body.appendChild(newHeader); 
